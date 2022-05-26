@@ -21,7 +21,7 @@ header{
     padding: 2em 10em;
 }
 .logo{
-    width: 170px;
+    width: 200px;
     height: auto;
 }
 ul{
@@ -44,7 +44,7 @@ ul{
     padding: 2em 10em;
     position: relative;
     bottom: 85px;
-    margin-bottom: 0px;
+    margin-top: 80px;
 }
 .One img{
     border-radius: 15px;
@@ -74,6 +74,12 @@ ul{
     color: #F9FAF8;
     border: none;
     border-radius: 10px;
+}
+.Left button:hover {box-shadow: 0 5px #666}
+
+.Left button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 /*White section*/
 
@@ -147,14 +153,21 @@ h2{
     color: #F9FAF8;
     font-size: 18px;
 }
-.Call-to button{
+.b{
     padding: 10px 20px;
     background-color: #3882f6;
     border: solid #F9FAF8;
+    border-radius: 15px;
+    color: border: solid #F9FAF8;
     color: #F9FAF8;
     font-size: 25px;
     font-weight: bold;
-    border-radius: 15px;
+}
+.b:hover {box-shadow: 0 5px #666}
+
+.b:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /*Footer*/
